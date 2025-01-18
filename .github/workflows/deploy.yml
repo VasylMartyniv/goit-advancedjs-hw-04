@@ -14,7 +14,6 @@ jobs:
       - name: Clean up node_modules and package-lock 🔧
         run: |
           rm -rf node_modules
-          rm package-lock.json
 
       - name: Install and build 🔧
         run: |
